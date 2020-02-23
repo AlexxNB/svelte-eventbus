@@ -22,7 +22,7 @@
     "src",
     "dist"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple eventbus realization based on internal Svelte's tools only.",
   "dependencies": {},
   "repository": {
