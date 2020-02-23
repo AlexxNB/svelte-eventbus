@@ -1,1 +1,1 @@
-export { default as default } from './Eventbus.svelte';
+export { default as default, createEventbusDispatcher, initEventbus } from './Eventbus.svelte';
