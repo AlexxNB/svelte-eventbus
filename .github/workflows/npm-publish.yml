@@ -3,9 +3,7 @@ name: Publish on NPM
 on:
   push:
     paths:
-      - '.github/workflows/npm-publish.yml'
       - 'package.json'
-      - 'src/*'
 
 jobs:
   publish-npm:
