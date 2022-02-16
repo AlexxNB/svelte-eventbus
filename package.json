@@ -1,17 +1,18 @@
 {
   "name": "svelte-eventbus",
   "svelte": "src/index.js",
-  "module": "dist/index.mjs",
+  "module": "dist/index.es.js",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rollup -c",
-    "prepublishOnly": "npm run build"
+    "build": "node esbuild"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^6.0.0",
-    "rollup": "^1.20.0",
-    "rollup-plugin-svelte": "^5.0.0",
-    "svelte": "^3.19.0"
+    "esbuild": "^0.14.21",
+    "esbuild-svelte": "^0.6.2",
+    "svelte": "^3.46.4"
+  },
+  "peerDependencies": {
+    "svelte": "3.x"
   },
   "keywords": [
     "svelte",
@@ -24,7 +25,6 @@
   ],
   "version": "0.1.1",
   "description": "Simple eventbus realization based on internal Svelte's tools only.",
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlexxNB/svelte-eventbus.git"

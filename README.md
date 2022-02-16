@@ -20,7 +20,7 @@ Use when you need handle events from deeply-nested child components without even
 
 ```html
 <script>
-    import Eventbus from 'svelte-eventbus';
+    import {Eventbus} from 'svelte-eventbus';
     import Child from './Child.svelte';
 
     let totalclicks = 0;
