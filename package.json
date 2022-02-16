@@ -4,12 +4,18 @@
   "module": "dist/index.es.js",
   "main": "dist/index.js",
   "scripts": {
-    "build": "node esbuild"
+    "build": "node esbuild",
+    "dev": "node esbuild --dev",
+    "test": "node test"
   },
   "devDependencies": {
+    "derver": "^0.5.3",
     "esbuild": "^0.14.21",
     "esbuild-svelte": "^0.6.2",
-    "svelte": "^3.46.4"
+    "port-authority": "^1.1.2",
+    "puppeteer": "^13.3.2",
+    "svelte": "^3.46.4",
+    "uvu": "^0.5.3"
   },
   "peerDependencies": {
     "svelte": "3.x"

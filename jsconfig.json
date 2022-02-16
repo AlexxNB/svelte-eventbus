@@ -1,0 +1,9 @@
+{
+  "baseURL":".",
+  "compilerOptions": {
+      "paths": {
+          "svelte-eventbus": ["./src/index.js"],
+          "@Button": ["./test/app/components/Button.svelte"]
+      }
+  }
+}
