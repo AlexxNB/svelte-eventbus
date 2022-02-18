@@ -10,7 +10,7 @@ Use when you need handle events from deeply-nested child components without even
 
 * Events are isolated inside of `Eventbus` component instance. You can have more than one `Eventbus` in the parent component. Each will listen events from it's child components only.
 
-* If you will have some nested `Eventbus` components, events will bubble while first of them will be occured.
+* If you have several nested `Eventbus` components, events will bubble through them while needed event listener will be occurred. 
 
 
 
