@@ -17,6 +17,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Installing NPM deps
         run: npm install
+      - name: Build
+        run: npm run build
       - name: Building & publishing on NPM
         run: npm publish
         env:
