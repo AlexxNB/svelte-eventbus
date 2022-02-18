@@ -1,1 +1,2 @@
-export { default as Eventbus, createEventbusDispatcher, initEventbus } from './Eventbus.svelte';
+export { default as Eventbus } from './Eventbus.svelte';
+export { createEventbusDispatcher, initEventbus } from './lib.js';
