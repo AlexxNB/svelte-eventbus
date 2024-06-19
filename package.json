@@ -13,7 +13,7 @@
     "esbuild": "^0.14.21",
     "esbuild-svelte": "^0.6.2",
     "port-authority": "^1.1.2",
-    "puppeteer": "^13.3.2",
+    "puppeteer": "^22.11.2",
     "svelte": "^3.46.4",
     "uvu": "^0.5.3"
   },
