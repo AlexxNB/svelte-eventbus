@@ -14,7 +14,7 @@
     "esbuild-svelte": "^0.6.2",
     "port-authority": "^1.1.2",
     "puppeteer": "^13.3.2",
-    "svelte": "^3.46.4",
+    "svelte": "^4.2.19",
     "uvu": "^0.5.3"
   },
   "peerDependencies": {
